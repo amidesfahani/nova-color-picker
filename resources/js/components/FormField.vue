@@ -47,12 +47,12 @@ export default {
         setColor(color) {
             if (/^#[0-9A-F]{6}$/i.test(color))
             {
-                this.colors = {
+                return this.colors = {
                     hex: color
                 }
             }
             color = this.toRGB(color)
-            this.colors = {
+            return this.colors = {
                 rgba: {
                     r: color[0],
                     g: color[1],
