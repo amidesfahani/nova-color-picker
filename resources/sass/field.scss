@@ -1,0 +1,13 @@
+// Nova Tool CSS
+.picker-container {
+    position: relative;
+}
+.vc-sketch {
+    position: absolute;
+    z-index: 10;
+	right: auto;
+	left: 0;
+}
+.ltr {
+	direction: ltr;
+}
