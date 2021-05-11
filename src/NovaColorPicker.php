@@ -1,15 +1,15 @@
 <?php
 
-namespace Amid\ColorPicker;
+namespace Amid\NovaColorPicker;
 
 use Laravel\Nova\Fields\Field;
 
-class ColorPicker extends Field
+class NovaColorPicker extends Field
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'color-picker';
+    public $component = 'nova-color-picker';
 }

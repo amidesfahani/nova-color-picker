@@ -1,6 +1,6 @@
 <?php
 
-namespace Amid\ColorPicker;
+namespace Amid\NovaColorPicker;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

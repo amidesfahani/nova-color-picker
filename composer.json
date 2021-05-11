@@ -1,9 +1,10 @@
 {
-    "name": "amidesfahani/color-picker",
-    "description": "A Laravel Nova field.",
+    "name": "amidesfahani/nova-color-picker",
+    "description": "A Laravel Nova Color Picker.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "color picker"
     ],
     "license": "MIT",
     "require": {
@@ -11,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Amid\\ColorPicker\\": "src/"
+            "Amid\\NovaColorPicker\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Amid\\ColorPicker\\FieldServiceProvider"
+                "Amid\\NovaColorPicker\\FieldServiceProvider"
             ]
         }
     },
